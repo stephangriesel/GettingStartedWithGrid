@@ -42,10 +42,28 @@ body,html {
 
 .wrapper {
 	display:grid;
-	grid-template-columns: 3fr 1fr 1fr;
-	grid-template-rows: 1fr 3fr;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+.wrapper {
+	display:grid;
+	grid-template-columns: 2fr 1fr 1fr;
+}
+}
+
+/* Larger than fablet */
+@media (min-width: 1000px) {
+
+.wrapper {
+	display:grid;
+	grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+}
+
 
 /* ######################################### */
 /* Media Queries End */
